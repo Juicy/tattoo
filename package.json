@@ -1,0 +1,29 @@
+{
+  "name": "juicy-tattoo",
+  "version": "0.0.1",
+  "description": "Test All The Things Over & Over - script to help with repolepsy and trigger dependant travis builds",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "./juicy-tattoo.js",
+  "bin": "./juicy-tattoo.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juicy/tattoo.git"
+  },
+  "keywords": [
+    "tattoo",
+    "testing",
+    "juicy"
+  ],
+  "author": "Tomek Wytrębowicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Juicy/tattoo/issues"
+  },
+  "homepage": "https://github.com/Juicy/tattoo#readme",
+  "dependencies": {
+    "got": "^8.0.3",
+    "shelljs": "^0.8.1"
+  }
+}
