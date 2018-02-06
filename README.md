@@ -8,7 +8,12 @@ This is naive script to run more builds after your build finished successfully.
 ## Installation
 
 ```
-npm install --save-dev Juicy/tattoo
+npm install juicy-tattoo
+```
+Consider saving it to your `package.json` with `--save`, or calling it in your `.travis.yml`:
+```
+before_script:
+- npm install juicy-tattoo
 ```
 
 ## Setup
@@ -19,7 +24,7 @@ npm install --save-dev Juicy/tattoo
  3. Add script to your `travis.yml`
      ```yml
      after_success:
-     - npm tattoo
+     - juicy-tattoo
      ```
  4. Create `test/tattoo.json` file to point to your dependants:
     ```json
