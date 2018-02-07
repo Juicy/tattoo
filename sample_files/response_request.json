@@ -1,0 +1,59 @@
+{
+  "@type": "request",
+  "@href": "/repo/2624495/request/103166781",
+  "@representation": "standard",
+  "id": 103166781,
+  "state": "finished",
+  "result": "approved",
+  "message": null,
+  "repository": {
+    "@type": "repository",
+    "@href": "/repo/2624495",
+    "@representation": "minimal",
+    "id": 2624495,
+    "name": "imported-template",
+    "slug": "Juicy/imported-template"
+  },
+  "branch_name": {
+    "@type": "branch",
+    "@href": "/repo/2624495/branch/master",
+    "@representation": "minimal",
+    "name": "master"
+  },
+  "commit": {
+    "@type": "commit",
+    "@representation": "minimal",
+    "id": 100547992,
+    "sha": "a2ee9eae29cfc3149d2df4d2a7231cb42ff321ab",
+    "ref": null,
+    "message": "Trigger build at Juicy%2Fjuicy-html commit: 1f732587d4d6cb44a510ab5a50771dce068d36ef",
+    "compare_url": "https://github.com/Juicy/imported-template/compare/101e0f61c0ca4e9f5488ce7236eb0909353d3e9e...a2ee9eae29cfc3149d2df4d2a7231cb42ff321ab",
+    "committed_at": "2018-01-03T18:34:49Z"
+  },
+  "builds": [
+    {
+      "@type": "build",
+      "@href": "/build/338210009",
+      "@representation": "minimal",
+      "id": 338210009,
+      "number": "166",
+      "state": "passed",
+      "duration": 254,
+      "event_type": "api",
+      "previous_state": "passed",
+      "pull_request_title": null,
+      "pull_request_number": null,
+      "started_at": "2018-02-06T21:20:58Z",
+      "finished_at": "2018-02-06T21:25:12Z"
+    }
+  ],
+  "owner": {
+    "@type": "organization",
+    "@href": "/org/78282",
+    "@representation": "minimal",
+    "id": 78282,
+    "login": "Juicy"
+  },
+  "created_at": "2018-02-06T21:19:49Z",
+  "event_type": "api"
+}

@@ -1,0 +1,28 @@
+{
+  "@type": "pending",
+  "remaining_requests": 10,
+  "repository": {
+    "@type": "repository",
+    "@href": "/repo/2624495",
+    "@representation": "minimal",
+    "id": 2624495,
+    "name": "imported-template",
+    "slug": "Juicy/imported-template"
+  },
+  "request": {
+    "repository": {
+      "id": 18132709,
+      "owner_name": "Juicy",
+      "name": "imported-template"
+    },
+    "user": {
+      "id": 16482
+    },
+    "id": 103166781,
+    "message": "Trigger build at Juicy%2Fjuicy-html commit: 1f732587d4d6cb44a510ab5a50771dce068d36ef",
+    "branch": "master",
+    "config": {
+    }
+  },
+  "resource_type": "request"
+}
