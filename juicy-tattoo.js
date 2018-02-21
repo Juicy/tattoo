@@ -50,6 +50,13 @@ tattooConfig.dependants.forEach((dependantRepo)=>{
         request: {
           message: `Trigger build at ${currentRepoSlug} commit: ${gitCommitHash}`,
           branch: 'master',
+          config: {
+              env: {
+                JUICY_TATTOO_DEPENDENCY: currentRepo.replace(/[^/]*\//,''),
+                JUICY_TATTOO_DEPENDENCY_SLUG: currentRepoSlug,
+                JUICY_TATTOO_DEPENDENCY_COMMIT: gitCommitHash
+              }
+          }
         },
       }),
     })
