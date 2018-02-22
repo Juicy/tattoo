@@ -1,6 +1,6 @@
 {
   "name": "juicy-tattoo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Test All The Things Over & Over - script to help with repolepsy and trigger dependant travis builds",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
