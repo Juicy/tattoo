@@ -53,7 +53,7 @@ tattooConfig.dependants.forEach((dependantRepo)=>{
           config: {
               env: {
                 JUICY_TATTOO_DEPENDENCY: currentRepo.replace(/[^/]*\//,''),
-                JUICY_TATTOO_DEPENDENCY_SLUG: currentRepoSlug,
+                JUICY_TATTOO_DEPENDENCY_SLUG: currentRepo,
                 JUICY_TATTOO_DEPENDENCY_COMMIT: gitCommitHash
               }
           }
